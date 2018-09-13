@@ -1,0 +1,24 @@
+.container{  }
+body { padding-bottom: 70px; }
+h1,h2,h3 { margin: 0; }
+
+.media { margin-top: 0; margin-bottom: 20px; height: 105px;  }
+.media-heading { font-size: 16px; }
+
+.navbar{ border-radius: 0; margin-bottom: 0; }
+
+.media-object { }
+
+@media screen and (max-width: 768px) {
+  .media-heading { font-size: 14px; }
+  .media-object { width: 100px; height: auto; }
+}
+.comandos { background: #f9f9f9; margin-bottom: 20px; padding: 20px; }
+
+.btns {  display: inline-block; /*position: absolute; */bottom: 3px; padding: 0 5px; width: 130px; opacity: 0.7; text-align: right; }
+.btns a{  }
+
+.hover-container { display: block; position: relative; }
+.hover-container .hover { display: none; position: relative; }
+.hover-container:hover .hover { display: block; z-index: 200; background: rgba(0, 0, 0, 0.8); bottom: 60px; text-align: center; }
+.hover a { display: inline-block; padding: 5px;   }

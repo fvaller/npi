@@ -1,0 +1,13 @@
+RewriteEngine On
+#RewriteBase /npi
+
+RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+#Options -Indexes
+
+# 1 WEEK
+<FilesMatch "\.(jpg|JPG|jpeg|JPEG|png|PNG|gif|GIF|swf)$">
+Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
