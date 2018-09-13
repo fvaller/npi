@@ -1,3 +1,5 @@
-# Admin Simples
+# NPI
 
-![admin-simples](https://raw.githubusercontent.com/fvaller/admin-simples/master/screenshot-login.png)
+Script que coleta as noticias dos principais sites em Teresina
+
+![npi](https://raw.githubusercontent.com/fvaller/npi/master/screenshot-npi.png)
